@@ -4,6 +4,10 @@ var server = express();
 server.use('/js', express.static(__dirname + '/js'));
 server.use('/css', express.static(__dirname + '/css'));
 
+server.get('/', function(req, res) {
+  res.sendFile(__dirname + '/selectTeam.html');
+});
+
 server.get('/*', function(req, res){
   res.sendFile(__dirname + '/index.html');
 });

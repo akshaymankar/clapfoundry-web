@@ -1,6 +1,6 @@
 class Controller {
   init() {
-    let repository = new Repository("http://clappy.cfapps.io")
+    let repository = new Repository("https://clappy.cfapps.io")
     let timeDisplay = document.getElementById('timeDisplay')
     let button = document.getElementById('clapButton')
     let view = new ClappyView(timeDisplay, button)

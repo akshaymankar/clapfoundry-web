@@ -31,3 +31,31 @@ body {
     border-radius: 20px;
     line-height: 1.5;
 }
+#teams{
+    position: fixed;
+    background-color: #cdef0e;
+    left: 50%; /* Starting at 50% */
+    margin-left: -156px; /* 50% of the width of the button */
+    top:50%; /* Starting at 50% */
+    margin-top: -50px; /* 50% of the height of the button */
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 20px;
+    line-height: 1.5;
+    padding: 0 20px 10px 20px;
+}
+
+h3 {
+    margin: 0px;
+}
+#teams button{
+    background-color: #0ec2ef;
+    border-radius: 6px;
+    border-color: #0ec2ef;
+        font-size: 1.0em;
+}
+#team{
+    border-radius: 4px;
+    border: 0px;
+    font-size: 1.2em;
+}
