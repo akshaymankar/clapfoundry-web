@@ -1,9 +1,10 @@
 class Clappy {
-  constructor(repository) {
+  constructor(repository, teamName) {
     this.repository = repository
+    this.teamName = teamName
   }
 
-  returnTrue() {
-    return true
+  clap() {
+    this.repository.sendClap(this.teamName)
   }
 }
