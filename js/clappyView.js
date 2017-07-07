@@ -1,6 +1,7 @@
 class ClappyView {
-  constructor(element) {
+  constructor(element, button) {
     this.element = element
+    this.button = button
   }
 
   start(seconds) {
@@ -16,7 +17,7 @@ class ClappyView {
   runLoop(seconds) {
     let self = this
     if(seconds == 0)
-      self.element.innerHTML = "CLAP!!"
+      self.element.innerHTML = "CLAP!"
     else
       window.setTimeout(function(){
         self.element.innerHTML = seconds - 1

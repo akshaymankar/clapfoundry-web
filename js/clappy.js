@@ -18,6 +18,8 @@ class Clappy {
     json.then(function(foo) {
       if(foo.timer_started) {
         self.view.start(foo.time_remaining)
+        self.view.button.style.display = "none"
+        self.view.element.style.display = "block"
       } else {
         window.setTimeout(self.poll.bind(self), 1000)
       }

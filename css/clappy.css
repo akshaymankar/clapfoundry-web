@@ -1,0 +1,33 @@
+body {
+  background-color: #efa00e
+}
+
+#clapButton{
+    position: fixed;
+    height: 100px;
+    left: 50%; /* Starting at 50% */
+    margin-left: -150px; /* 50% of the width of the button */
+    top:50%; /* Starting at 50% */
+    margin-top: -50px; /* 50% of the height of the button */
+    font-size: 4em;
+    background-color: #cdef0e;
+    border-radius: 20px;
+    border-color: black;
+}
+
+#timeDisplay{
+    display: none;
+    position: fixed;
+    width: 200px;
+    height: 100px;
+    background-color: #cdef0e;
+    left: 50%; /* Starting at 50% */
+    margin-left: -156px; /* 50% of the width of the button */
+    top:50%; /* Starting at 50% */
+    margin-top: -50px; /* 50% of the height of the button */
+    font-size: 4em;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 20px;
+    line-height: 1.5;
+}
